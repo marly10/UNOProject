@@ -1,0 +1,86 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/rickymarly/Desktop/PLNUFall2020/CSC2052 - Data Structures In C++ /hw_c/lab12_UnoAi/AI.cpp
+AI.h
+/Users/rickymarly/Desktop/PLNUFall2020/CSC2052 - Data Structures In C++ /hw_c/lab12_UnoAi/AI.h
+
+/Users/rickymarly/Desktop/PLNUFall2020/CSC2052 - Data Structures In C++ /hw_c/lab12_UnoAi/AI.h
+vector
+-
+Card.h
+/Users/rickymarly/Desktop/PLNUFall2020/CSC2052 - Data Structures In C++ /hw_c/lab12_UnoAi/Card.h
+string
+-
+
+/Users/rickymarly/Desktop/PLNUFall2020/CSC2052 - Data Structures In C++ /hw_c/lab12_UnoAi/Card.cpp
+Card.h
+/Users/rickymarly/Desktop/PLNUFall2020/CSC2052 - Data Structures In C++ /hw_c/lab12_UnoAi/Card.h
+
+/Users/rickymarly/Desktop/PLNUFall2020/CSC2052 - Data Structures In C++ /hw_c/lab12_UnoAi/Card.h
+iostream
+-
+string
+-
+
+/Users/rickymarly/Desktop/PLNUFall2020/CSC2052 - Data Structures In C++ /hw_c/lab12_UnoAi/FireAI.cpp
+FireAI.h
+/Users/rickymarly/Desktop/PLNUFall2020/CSC2052 - Data Structures In C++ /hw_c/lab12_UnoAi/FireAI.h
+iostream
+-
+
+/Users/rickymarly/Desktop/PLNUFall2020/CSC2052 - Data Structures In C++ /hw_c/lab12_UnoAi/FireAI.h
+AI.h
+/Users/rickymarly/Desktop/PLNUFall2020/CSC2052 - Data Structures In C++ /hw_c/lab12_UnoAi/AI.h
+Player.h
+/Users/rickymarly/Desktop/PLNUFall2020/CSC2052 - Data Structures In C++ /hw_c/lab12_UnoAi/Player.h
+
+/Users/rickymarly/Desktop/PLNUFall2020/CSC2052 - Data Structures In C++ /hw_c/lab12_UnoAi/Player.cpp
+Player.h
+/Users/rickymarly/Desktop/PLNUFall2020/CSC2052 - Data Structures In C++ /hw_c/lab12_UnoAi/Player.h
+iostream
+-
+string
+-
+
+/Users/rickymarly/Desktop/PLNUFall2020/CSC2052 - Data Structures In C++ /hw_c/lab12_UnoAi/Player.h
+vector
+-
+algorithm
+-
+Card.h
+/Users/rickymarly/Desktop/PLNUFall2020/CSC2052 - Data Structures In C++ /hw_c/lab12_UnoAi/Card.h
+AI.h
+/Users/rickymarly/Desktop/PLNUFall2020/CSC2052 - Data Structures In C++ /hw_c/lab12_UnoAi/AI.h
+TestAI.h
+/Users/rickymarly/Desktop/PLNUFall2020/CSC2052 - Data Structures In C++ /hw_c/lab12_UnoAi/TestAI.h
+FireAI.h
+/Users/rickymarly/Desktop/PLNUFall2020/CSC2052 - Data Structures In C++ /hw_c/lab12_UnoAi/FireAI.h
+
+/Users/rickymarly/Desktop/PLNUFall2020/CSC2052 - Data Structures In C++ /hw_c/lab12_UnoAi/TestAI.cpp
+TestAI.h
+/Users/rickymarly/Desktop/PLNUFall2020/CSC2052 - Data Structures In C++ /hw_c/lab12_UnoAi/TestAI.h
+iostream
+-
+
+/Users/rickymarly/Desktop/PLNUFall2020/CSC2052 - Data Structures In C++ /hw_c/lab12_UnoAi/TestAI.h
+AI.h
+/Users/rickymarly/Desktop/PLNUFall2020/CSC2052 - Data Structures In C++ /hw_c/lab12_UnoAi/AI.h
+
+/Users/rickymarly/Desktop/PLNUFall2020/CSC2052 - Data Structures In C++ /hw_c/lab12_UnoAi/main.cpp
+iostream
+-
+vector
+-
+string
+-
+Player.h
+/Users/rickymarly/Desktop/PLNUFall2020/CSC2052 - Data Structures In C++ /hw_c/lab12_UnoAi/Player.h
+Card.h
+/Users/rickymarly/Desktop/PLNUFall2020/CSC2052 - Data Structures In C++ /hw_c/lab12_UnoAi/Card.h
+
