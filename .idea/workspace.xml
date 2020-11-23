@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
       <config projectName="lab12_UnoAi" targetName="lab12_UnoAi" />
@@ -12,15 +30,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6894176-2b36-48ee-aa7f-6fc50880eac3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireAI.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/FireAI.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FireAI.h" beforeDir="false" afterPath="$PROJECT_DIR$/FireAI.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Player.h" beforeDir="false" afterPath="$PROJECT_DIR$/Player.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab12_UnoAi.dir/FireAI.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab12_UnoAi.dir/FireAI.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab12_UnoAi.dir/Player.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab12_UnoAi.dir/Player.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab12_UnoAi.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab12_UnoAi.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lab12_UnoAi" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lab12_UnoAi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab12_UnoAi.dir/AI.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab12_UnoAi.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab12_UnoAi.dir/Card.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab12_UnoAi.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab12_UnoAi.dir/FireAI.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab12_UnoAi.dir/Player.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab12_UnoAi.dir/TestAI.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab12_UnoAi.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab12_UnoAi.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab12_UnoAi.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab12_UnoAi.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab12_UnoAi.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab12_UnoAi.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab12_UnoAi.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab12_UnoAi.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lab12_UnoAi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lab12_UnoAi.cbp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,11 +80,21 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1kCnxpmEkmBSq4ydtXbSKKD1qH8" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -46,10 +106,15 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="CLionExternalConfigurable" />
   </component>
   <component name="RunManager">
-    <configuration name=" lab12_UnoAi" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" RUN_PATH="$PROJECT_DIR$/../lab11/cmake-build-debug/lab11" EXPLICIT_BUILD_TARGET_NAME="all">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UNO_AI_Run" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab12_UnoAi" TARGET_NAME="lab12_UnoAi" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lab12_UnoAi" RUN_TARGET_NAME="lab12_UnoAi">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -96,25 +161,44 @@
       <workItem from="1606100974215" duration="110000" />
       <workItem from="1606101240601" duration="23000" />
       <workItem from="1606101294299" duration="35000" />
-      <workItem from="1606101360024" duration="113000" />
+      <workItem from="1606101360024" duration="596000" />
+      <workItem from="1606102135008" duration="92000" />
+      <workItem from="1606102257277" duration="1321000" />
+      <workItem from="1606103636665" duration="37000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="1864" y="26" width="1071" height="816" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606101512481">
+    <state x="1864" y="8" width="1071" height="840" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606103672879">
       <screen x="1440" y="-155" width="1920" height="1003" />
     </state>
     <state x="1864" y="33" key="#com.intellij.execution.impl.EditConfigurationsDialog/1440.-157.1920.1057/3360.-157.1920.1057/0.23.1440.831@1440.-157.1920.1057" timestamp="1605214060232" />
-    <state x="1864" y="26" width="1071" height="816" key="#com.intellij.execution.impl.EditConfigurationsDialog/3360.-155.1920.1055/1440.-155.1920.1003/0.25.1440.875@1440.-155.1920.1003" timestamp="1606101512481" />
+    <state x="1864" y="8" width="1071" height="840" key="#com.intellij.execution.impl.EditConfigurationsDialog/3360.-155.1920.1055/1440.-155.1920.1003/0.25.1440.875@1440.-155.1920.1003" timestamp="1606103672879" />
     <state x="3784" y="35" width="1071" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog/3360.-155.1920.1055/1440.-155.1920.1003/0.25.1440.875@3360.-155.1920.1055" timestamp="1606100821367" />
     <state x="1864" y="35" key="#com.intellij.execution.impl.EditConfigurationsDialog/3360.-155.1920.1055/1440.-155.1920.1055/0.25.1440.823@1440.-155.1920.1055" timestamp="1605660919895" />
     <state x="2137" y="152" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606100904166">
       <screen x="1440" y="-155" width="1920" height="1003" />
     </state>
     <state x="2137" y="152" key="#com.intellij.fileTypes.FileTypeChooser/3360.-155.1920.1055/1440.-155.1920.1003/0.25.1440.875@1440.-155.1920.1003" timestamp="1606100904166" />
+    <state x="2187" y="137" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1606102325136">
+      <screen x="1440" y="-155" width="1920" height="1003" />
+    </state>
+    <state x="2187" y="137" key="#com.intellij.ide.macro.MacrosDialog/3360.-155.1920.1055/1440.-155.1920.1003/0.25.1440.875@1440.-155.1920.1003" timestamp="1606102325136" />
     <state width="1878" height="366" key="GridCell.Tab.0.bottom" timestamp="1606096684345">
       <screen x="1440" y="-155" width="1920" height="1055" />
     </state>
@@ -171,9 +255,18 @@
     </state>
     <state width="1398" height="261" key="GridCell.Tab.1.right/0.25.1440.823@0.25.1440.823" timestamp="1606079959878" />
     <state width="1878" height="354" key="GridCell.Tab.1.right/3360.-155.1920.1055/1440.-155.1920.1055/0.25.1440.823@1440.-155.1920.1055" timestamp="1606096684321" />
-    <state x="1909" y="8" key="SettingsEditor" timestamp="1605660870082">
-      <screen x="1440" y="-155" width="1920" height="1055" />
+    <state width="640" height="204" key="ImportCMakeProjectWizard.bottomPanel" timestamp="1606103635018">
+      <screen x="1440" y="-155" width="1920" height="1003" />
     </state>
+    <state width="640" height="204" key="ImportCMakeProjectWizard.bottomPanel/3360.-155.1920.1055/1440.-155.1920.1003/0.25.1440.875@1440.-155.1920.1003" timestamp="1606103635018" />
+    <state width="640" height="476" key="ImportCMakeProjectWizard.topPanel" timestamp="1606103635018">
+      <screen x="1440" y="-155" width="1920" height="1003" />
+    </state>
+    <state width="640" height="476" key="ImportCMakeProjectWizard.topPanel/3360.-155.1920.1055/1440.-155.1920.1003/0.25.1440.875@1440.-155.1920.1003" timestamp="1606103635018" />
+    <state x="1909" y="0" key="SettingsEditor" timestamp="1606102222831">
+      <screen x="1440" y="-155" width="1920" height="1003" />
+    </state>
+    <state x="1909" y="0" key="SettingsEditor/3360.-155.1920.1055/1440.-155.1920.1003/0.25.1440.875@1440.-155.1920.1003" timestamp="1606102222831" />
     <state x="1909" y="8" key="SettingsEditor/3360.-155.1920.1055/1440.-155.1920.1055/0.25.1440.823@1440.-155.1920.1055" timestamp="1605660870082" />
     <state x="2130" y="288" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1605660661291">
       <screen x="1440" y="-155" width="1920" height="1055" />

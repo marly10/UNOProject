@@ -1,3 +1,0 @@
-/Users/rickymarly/Desktop/PLNUFall2020/CSC2052 - Data Structures In C++ /hw_c/lab12_UnoAi/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/rickymarly/Desktop/PLNUFall2020/CSC2052 - Data Structures In C++ /hw_c/lab12_UnoAi/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/rickymarly/Desktop/PLNUFall2020/CSC2052 - Data Structures In C++ /hw_c/lab12_UnoAi/cmake-build-debug/CMakeFiles/lab12_UnoAi.dir
