@@ -82,7 +82,6 @@ string colorToString(Color c)
 void printGameState(int currentTurn, vector<Player*> thePlayers, Card topCardOfDiscard)
 {
 
-
 	if (VERBOSE) cout << "\nCurrentTurn: " << currentTurn << endl;
 
 	for (int i = 0; i < thePlayers.size(); i++)
@@ -389,9 +388,9 @@ int main()
 
 	thePlayers.push_back(new Player(0, 1)); // the 1 passed in here indicates the ai from the player constructor.
 	thePlayers.push_back(new Player(1, 1)); // the 1 passed in here indicates the ai from the player constructor.
-	thePlayers.push_back(new Player(2, 0)); // the 1 passed in here indicates the ai from the player constructor.
+	thePlayers.push_back(new Player(2, 1)); // the 1 passed in here indicates the ai from the player constructor.
 	thePlayers.push_back(new Player(3, 1)); // the 1 passed in here indicates the ai from the player constructor.
-	thePlayers.push_back(new Player(4, 1)); // the 1 passed in here indicates the ai from the player constructor.
+	thePlayers.push_back(new Player(4, 0)); // the 1 passed in here indicates the ai from the player constructor.
 
 
 	//1 game played, change the 1 to another number to play more games... like 50 at a time

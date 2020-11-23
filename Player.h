@@ -16,18 +16,11 @@ class Player
 
 protected:
 	vector<Card> hand;
-	
-
-
 	int playerNumber;
-
 	AI * theAI;
-
-
 	vector<int> handSizes;
 	vector<vector<int>> pointsPerHand;
 	vector<int> games;
-	
 
 	bool validPlay(int index, Card justPlayed, Color choosenCardColor, bool justDrew, vector<int> scores, vector<int> cardAmountsByPlayer, vector<Card> cardsInHand);
 
@@ -42,19 +35,12 @@ public:
 		;
 
 	Color getNewColor();
-
 	void clearHand();
-
-
 	void addToHand(Card c);
-
 	void removeCardFromHand(int indexOfCard);
-
 	vector<Card> getHandCopy();
-
 	int mostRecent = 0;
 	//int whichAI;
-
 	vector<float> diff;
 
 	int updateStats(vector<Player*> thePlayers);

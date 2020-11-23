@@ -6,7 +6,14 @@
 #include <iostream>
 using namespace std;
 
-FireAI::FireAI(int playerNumber): AI(playerNumber) {}
+Card c;
+int cw = 0;
+
+FireAI::FireAI(int playerNumber):
+AI(playerNumber)
+{
+
+}
 
 void FireAI::onOtherPlayerMove(int playerNumber, Card justPlayed, Color choosenCardColor)
 {
@@ -15,7 +22,7 @@ void FireAI::onOtherPlayerMove(int playerNumber, Card justPlayed, Color choosenC
 
 void FireAI::onOtherPlayerDraw(int playerNumber)
 {
-
+    playerNumber = c.getNumber();
 }
 
 bool sortingCardByNumber(Card i, Card j)
@@ -102,7 +109,7 @@ int FireAI::makeMove(Card justPlayed, Color choosenCardColor, bool justDrew, vec
     //vector for both wild & draw4 -> colorCounterOfWildCards sorted
     //sort(colorCounterOfWildCards.begin(), colorCounterOfWildCards.end());
 
-    Card c;
+
 //100 -> 99
     for(int i = 0; i < colorCounterOfWildCards.size();i++)//losses card & keeps playing its own
     {
@@ -117,12 +124,12 @@ int FireAI::makeMove(Card justPlayed, Color choosenCardColor, bool justDrew, vec
             //savedColor = RED;
             savedColor = BLUE;
         }
-        else if (colorCounterOfWildCards[i] == yellowColorQt /*|| yellowColorQt < blackColorQt */)
+        else if (colorCounterOfWildCards[i] == yellowColorQt /*|| yellowColorQt == blackColorQt*/)
         {
             //savedColor =  GREEN;
             savedColor = YELLOW;
         }
-        else if (colorCounterOfWildCards[i] == greenColorQt /*|| greenColorQt < blackColorQt*/ )
+        else if (colorCounterOfWildCards[i] == greenColorQt /*|| greenColorQt == blackColorQt*/)
         {
             //savedColor = YELLOW;
             savedColor = GREEN;
@@ -133,24 +140,23 @@ int FireAI::makeMove(Card justPlayed, Color choosenCardColor, bool justDrew, vec
             //if(colorCounterOfWildCards[i] == blackColorQt)
             if(colorCounterOfWildCards[i] == blackColorQt)
             {
-                int k = i;
-
-                 if((colorCounterOfWildCards[0] == yellowColorQt) || (colorCounterOfWildCards[0] == yellowColorQt))
+                 int k = i;
+                 if((colorCounterOfWildCards[k-1] == yellowColorQt) || (colorCounterOfWildCards[k+1] == yellowColorQt))
                 {
                     savedColor = YELLOW;
                     //check the color i have
                     //see what card is on the top
                     //decide the best card to play
                 }
-                 else if((colorCounterOfWildCards[0] == greenColorQt) || (colorCounterOfWildCards[0] == greenColorQt))
+                 else if((colorCounterOfWildCards[k-1] == greenColorQt) || (colorCounterOfWildCards[k+1] == greenColorQt))
                 {
                     savedColor = YELLOW;
                 }
-                else if((colorCounterOfWildCards[0] == blueColorQt) || (colorCounterOfWildCards[0] == blueColorQt))
+                else if((colorCounterOfWildCards[k-1] == blueColorQt) || (colorCounterOfWildCards[k+1] == blueColorQt))
                 {
                     savedColor = YELLOW;
                 }
-                else if( (colorCounterOfWildCards[0] == redColorQt) || (colorCounterOfWildCards[0] == redColorQt))
+                else if( (colorCounterOfWildCards[k-1] == redColorQt) || (colorCounterOfWildCards[k+1] == redColorQt))
                 {
                     savedColor = YELLOW;
                 }
@@ -177,7 +183,11 @@ int FireAI::makeMove(Card justPlayed, Color choosenCardColor, bool justDrew, vec
 //the name of the AI is defined here
 string FireAI::getName()
 {
-    return "FireAI_Gang";
+    string d = to_string(cw);
+    string first_name = "FireAI_Gang";
+    string together = first_name+d;
+
+    return together;
 }
 //saved first play saved here
 Color FireAI::getNewColor()
